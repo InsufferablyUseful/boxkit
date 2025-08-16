@@ -21,6 +21,7 @@ clipboard
 gcc
 chezmoi
 micro
+nano
 zellij
 starship
 btop
