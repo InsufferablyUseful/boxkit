@@ -15,7 +15,7 @@ clipboard
 #python3
 #ripgrep
 #speedtest-cli
-#wl-clipboard
+wl-clipboard
 #zstd
 #Basic Utilities
 gcc
