@@ -42,6 +42,12 @@ jobs:
           labels: |
             io.artifacthub.package.readme-url=https://raw.githubusercontent.com/ublue-os/boxkit/main/README.md
 
+      # Install qemu for buildah multi arch builds
+      - name: Install qemu dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qemu-user-static
+
       # Build image using Buildah action
       - name: Build Image
         id: build_image
@@ -52,6 +58,7 @@ jobs:
           image: ${{ matrix.containerfile }}
           tags: ${{ env.IMAGE_TAGS }}
           labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/amd64, linux/arm64 
           oci: true
           
       # Workaround bug where capital letters in your GitHub username make it impossible to push to GHCR.
