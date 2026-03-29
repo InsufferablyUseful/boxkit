@@ -42,6 +42,12 @@ jobs:
           labels: |
             io.artifacthub.package.readme-url=https://raw.githubusercontent.com/ublue-os/boxkit/main/README.md
 
+      # Install qemu for buildah multi arch builds
+      - name: Install qemu dependency
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qemu-user-static
+
       # Build image using Buildah action
       - name: Build Image
         id: build_image
@@ -52,6 +58,7 @@ jobs:
           image: ${{ matrix.containerfile }}
           tags: ${{ env.IMAGE_TAGS }}
           labels: ${{ steps.meta.outputs.labels }}
+          platforms: linux/amd64, linux/arm64 
           oci: true
           
       # Workaround bug where capital letters in your GitHub username make it impossible to push to GHCR.
@@ -77,7 +84,7 @@ jobs:
           username: ${{ env.REGISTRY_USER }}
           password: ${{ env.REGISTRY_PASSWORD }}
             
-      - name: Login to GitHub Container Registry
+      - name: Login to GitHub Container RegistryChanges from the Incoming Branch: The branch you are trying to merge into your current branch (during a merge) or the branch you are attempting to apply on top of another branch (during a rebase). This is "what you merge" or "the source of the merge".
         uses: docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef # v3
         with:
           registry: ghcr.io
