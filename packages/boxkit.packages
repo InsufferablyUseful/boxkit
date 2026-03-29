@@ -12,7 +12,7 @@ clipboard
 #just
 #ncdu
 #plocate
-#python3
+python3
 #ripgrep
 #speedtest-cli
 wl-clipboard
