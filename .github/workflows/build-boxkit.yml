@@ -84,7 +84,7 @@ jobs:
           username: ${{ env.REGISTRY_USER }}
           password: ${{ env.REGISTRY_PASSWORD }}
             
-      - name: Login to GitHub Container RegistryChanges from the Incoming Branch: The branch you are trying to merge into your current branch (during a merge) or the branch you are attempting to apply on top of another branch (during a rebase). This is "what you merge" or "the source of the merge".
+      - name: Login to GitHub Container Registry
         uses: docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef # v3
         with:
           registry: ghcr.io
