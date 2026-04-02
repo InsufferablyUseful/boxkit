@@ -43,7 +43,7 @@ mpv
 timg
 fbida
 #View PDFs in framebuffer
-fbida-fbga
+fbida-fbgs
 #View images in framebuffer
 fbida-fbi
 #View pdfs in windowing
