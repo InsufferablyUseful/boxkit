@@ -20,7 +20,6 @@ wl-clipboard
 #Basic Utilities
 gcc
 chezmoi
-micro
 nano
 zellij
 starship
@@ -38,7 +37,28 @@ cosign
 yazi
 tigervnc-client
 #Media Playback
+#framebuffer/windowing
 mpv
+#In terminal image viewer(sixel/kitty/ascii)
 timg
+fbida
+#View PDFs in framebuffer
+fbida-fbga
+#View images in framebuffer
+fbida-fbi
+#View pdfs in windowing
+zathura
+#Communication
+#mail client
+alpine
+#Web and unweb access
+#terminal web browser
+lynx
+youtube-tui
+#terminal unweb browser
+bombadillo
+#terminal rss client
+newsboat
+#endcord for discord
 #Needed for bitwarden-cli through node
 npm
