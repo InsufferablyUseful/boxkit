@@ -48,6 +48,8 @@ fbida-fbgs
 fbida-fbi
 #View pdfs in windowing
 zathura
+#windowing image viewer
+imv
 #Communication
 #mail client
 alpine
@@ -55,6 +57,7 @@ alpine
 #terminal web browser
 lynx
 youtube-tui
+yt-dlp
 #terminal unweb browser
 bombadillo
 #terminal rss client
