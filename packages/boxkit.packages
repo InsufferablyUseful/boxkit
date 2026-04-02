@@ -12,7 +12,7 @@ clipboard
 #just
 #ncdu
 #plocate
-#python3
+python3
 #ripgrep
 #speedtest-cli
 wl-clipboard
@@ -20,7 +20,6 @@ wl-clipboard
 #Basic Utilities
 gcc
 chezmoi
-micro
 nano
 zellij
 starship
@@ -34,11 +33,35 @@ neofetch@testing
 neovim
 vimdiff
 cosign
-ranger
+#ranger
 yazi
 tigervnc-client
 #Media Playback
+#framebuffer/windowing
 mpv
+#In terminal image viewer(sixel/kitty/ascii)
 timg
+fbida
+#View PDFs in framebuffer
+fbida-fbgs
+#View images in framebuffer
+fbida-fbi
+#View pdfs in windowing
+zathura
+#windowing image viewer
+imv
+#Communication
+#mail client
+alpine
+#Web and unweb access
+#terminal web browser
+lynx
+youtube-tui
+yt-dlp
+#terminal unweb browser
+bombadillo
+#terminal rss client
+newsboat
+#endcord for discord
 #Needed for bitwarden-cli through node
 npm
