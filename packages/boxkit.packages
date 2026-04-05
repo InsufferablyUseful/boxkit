@@ -18,10 +18,10 @@ python3
 wl-clipboard
 #zstd
 #Basic Utilities
-gcc
+build-base
 chezmoi
 nano
-zellij
+#zellij
 starship
 btop
 make
@@ -48,6 +48,7 @@ fbida-fbgs
 fbida-fbi
 #View pdfs in windowing
 zathura
+zathura-pdf-poppler
 #windowing image viewer
 imv
 #Communication
@@ -56,6 +57,7 @@ alpine
 #Web and unweb access
 #terminal web browser
 lynx
+#terminal youtube
 youtube-tui
 yt-dlp
 #terminal unweb browser
