@@ -22,6 +22,7 @@ build-base
 chezmoi
 nano
 #zellij
+tmux
 starship
 btop
 make
@@ -51,6 +52,7 @@ zathura
 zathura-pdf-poppler
 #windowing image viewer
 imv
+imv-wayland
 #Communication
 #mail client
 alpine
