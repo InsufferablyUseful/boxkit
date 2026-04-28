@@ -40,7 +40,6 @@ tigervnc-client
 #Media Playback
 #framebuffer/windowing
 mpv
-#visidata dependency since its not packaged yet
 #In terminal image viewer(sixel/kitty/ascii)
 chafa
 fbida
