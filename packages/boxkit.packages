@@ -13,6 +13,8 @@ clipboard
 #ncdu
 #plocate
 python3
+py3-pip
+pipx
 #ripgrep
 #speedtest-cli
 wl-clipboard
@@ -21,7 +23,6 @@ wl-clipboard
 build-base
 chezmoi
 nano
-#zellij
 tmux
 starship
 btop
@@ -34,14 +35,14 @@ neofetch@testing
 neovim
 vimdiff
 cosign
-#ranger
 yazi
 tigervnc-client
 #Media Playback
 #framebuffer/windowing
 mpv
+#visidata dependency since its not packaged yet
 #In terminal image viewer(sixel/kitty/ascii)
-timg
+chafa
 fbida
 #View PDFs in framebuffer
 fbida-fbgs
@@ -66,6 +67,8 @@ yt-dlp
 bombadillo
 #terminal rss client
 newsboat
+#Text discord client
+discordo
 #endcord for discord
 #Needed for bitwarden-cli through node
 npm
