@@ -68,7 +68,6 @@ bombadillo
 #terminal rss client
 newsboat
 #Text discord client
-discordo
 #endcord for discord
 #Needed for bitwarden-cli through node
 npm
