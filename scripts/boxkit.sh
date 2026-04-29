@@ -12,3 +12,4 @@ apk update && apk upgrade
 grep -v '^#' ./boxkit.packages | xargs apk add
 #Install bitwarden-cli
 npm install -g @bitwarden/cli
+pipx install visidata
