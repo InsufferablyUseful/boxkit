@@ -58,7 +58,10 @@ imv-wayland
 alpine
 #Web and unweb access
 #terminal web browser
+#TODO pick one. Looking like elinks at the moment, but I want to fully configure
+#it before removal
 lynx
+elinks
 #terminal youtube
 youtube-tui
 yt-dlp
