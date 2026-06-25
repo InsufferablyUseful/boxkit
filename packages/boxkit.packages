@@ -29,6 +29,9 @@ btop
 make
 cargo
 git
+github-cli
+clang22
+clang22-extra-tools
 curl 
 ncurses
 neofetch@testing
