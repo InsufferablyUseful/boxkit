@@ -33,6 +33,7 @@ github-cli
 clang22
 clang22-extra-tools
 tree-sitter
+tree-sitter-cli
 tree-sitter-c
 tree-sitter-cpp
 curl 
