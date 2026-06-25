@@ -32,6 +32,9 @@ git
 github-cli
 clang22
 clang22-extra-tools
+tree-sitter
+tree-sitter-c
+tree-sitter-cpp
 curl 
 ncurses
 neofetch@testing
