@@ -125,6 +125,6 @@ jobs:
           # Authentication headers or others if needed.
           headers:
           # Additional text after the notification message.
-          details: New updates available for ${{ matrix.containerfile }}
+          details: New updates available for boxkit and boxkit-apps
           # Message priority.
           priority: default
