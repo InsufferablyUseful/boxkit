@@ -1,0 +1,15 @@
+FROM alpine:3.24
+
+LABEL com.github.containers.toolbox="true" \
+      usage="This image is meant to be used with the toolbox or distrobox command" \
+      summary="frequently used GUI apps I want. No guarantees or warranty, make your own if you like the idea" \
+      maintainer="InsufferablyUseful"
+
+# Copy the setup scripts and package list
+COPY ../scripts/boxkit-apps.sh /
+COPY ../scripts/distrobox-shims.sh /
+COPY ../packages/boxkit-apps.packages /
+COPY ../scripts/alpine-apps-export.sh /opt/alpine-export.sh
+# Run the setup scripts
+RUN chmod +x boxkit-apps.sh distrobox-shims.sh && /boxkit-apps.sh
+RUN rm /boxkit-apps.sh /distrobox-shims.sh /boxkit-apps.packages
