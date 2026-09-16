@@ -32,6 +32,10 @@ git
 github-cli
 clang22
 clang22-extra-tools
+tree-sitter
+tree-sitter-cli
+tree-sitter-c
+tree-sitter-cpp
 curl 
 ncurses
 neofetch@testing
@@ -61,9 +65,6 @@ imv-wayland
 alpine
 #Web and unweb access
 #terminal web browser
-#TODO pick one. Looking like elinks at the moment, but I want to fully configure
-#it before removal
-lynx
 elinks
 #terminal youtube
 youtube-tui

@@ -19,7 +19,7 @@ distrobox-export --bin /usr/bin/zathura
 distrobox-export --bin /usr/bin/imv
 distrobox-export --bin /usr/bin/alpine
 distrobox-export --bin /usr/bin/elinks
-distrobox-export --bin /usr/bin/lynx
 distrobox-export --bin /usr/bin/yt-dlp
 distrobox-export --bin /usr/bin/bombadillo
 distrobox-export --bin /usr/bin/newsboat
+distrobox-export --bin /usr/bin/gh
