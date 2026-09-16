@@ -119,11 +119,11 @@ jobs:
           # ntfy topic
           topic: lycra-olive-mask-teal-build-updates
           # Tags for the message seperated by commas
-          tags: # devops
+          tags: devops
           # ntfy message title.
-          title: # Boxkit build complete
+          title: Boxkit build complete
           # Authentication headers or others if needed.
-          headers:
+          # headers:
           # Additional text after the notification message.
           details: New updates available for boxkit and boxkit-apps
           # Message priority.
