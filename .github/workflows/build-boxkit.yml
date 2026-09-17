@@ -107,24 +107,7 @@ jobs:
 
       - name: Echo outputs
         run: |
-          echo "${{ toJSON(steps.push.outputs) }}"
-      #Send ntfy notification on build completion
-      - name: ntfy_action
-        # You may pin to the exact commit or the version.
-        uses: NiNiyas/ntfy-action@2e4de8e810b0b28dba54344de960426adbfe136e
-        # uses: NiNiyas/ntfy-action@v1.0.4
-        with:
-          # Server URL
-          url: ntfy.sh
-          # ntfy topic
-          topic: lycra-olive-mask-teal-build-updates
-          # Tags for the message seperated by commas
-          tags: devops
-          # ntfy message title.
-          title: Boxkit build complete
-          # Authentication headers or others if needed.
-          # headers:
-          # Additional text after the notification message.
-          details: New updates available for boxkit and boxkit-apps
-          # Message priority.
-          priority: default
+          echo "${{ toJSON(steps.push.outputs) }}
+      # Runs a single command using the runners shell
+      - name: Send ntfy notification
+        run: curl -d "Updates to boxkit and boxkit-apps! 😀" ntfy.sh/lycra-olive-mask-teal-build-updates
