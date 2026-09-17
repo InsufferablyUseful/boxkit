@@ -108,7 +108,7 @@ jobs:
 
       - name: Echo outputs
         run: |
-          echo "${{ toJSON(steps.push.outputs) }}
+          echo "${{ toJSON(steps.push.outputs) }}"
       # Runs a single command using the runners shell
       - name: Send ntfy notification
         run: curl -d "Updates to boxkit and boxkit-apps! 😀" ntfy.sh/lycra-olive-mask-teal-build-updates
