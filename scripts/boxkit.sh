@@ -15,5 +15,6 @@ npm install -g @bitwarden/cli
 #Install visidata
 pipx install --global visidata
 #Install yt-x
-curl -sL "https://github.com/Benexl/yt-x/releases/download/v0.8.6/yt-x" -o ~/.local/bin/yt-x                                                                                                                      chmod +x ~/.local/bin/yt-x
+curl -sL "https://github.com/Benexl/yt-x/releases/download/v0.8.6/yt-x" -o /bin/yt-x
+chmod +x /bin/yt-x
 
