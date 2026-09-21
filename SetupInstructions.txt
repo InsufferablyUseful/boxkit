@@ -1,0 +1,7 @@
+New distro setup steps
+Install podman and distrobox
+Open bitwarden
+Log in to ghcr
+pull the latest boxkit image
+create distrobox AlpineTerminal with the image
+chezmoi init and apply

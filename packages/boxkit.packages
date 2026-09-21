@@ -1,12 +1,12 @@
 #age
 #atuin
-#bat
+bat
 clipboard
 #dbus-x11
 #direnv
 #eza
 #ffmpeg
-#fzf
+fzf
 #github-cli
 #helix
 #just
@@ -17,6 +17,8 @@ py3-pip
 pipx
 #ripgrep
 #speedtest-cli
+gum
+jq
 wl-clipboard
 #zstd
 #Basic Utilities
