@@ -5,4 +5,4 @@ distrobox-export --app vlc
 distrobox-export --app transmission
 distrobox-export --app papers
 distrobox-export --app zotero
-distrobox-export --app weather
+distrobox-export --app Weather
